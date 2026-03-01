@@ -1,4 +1,4 @@
-# 🧠 Implementación Práctica de Algoritmos de Inteligencia Artificial
+# Implementación Práctica de Algoritmos de Inteligencia Artificial
 **Materia:** Sistemas Expertos / Inteligencia Artificial
 
 Este repositorio contiene la adaptación de algoritmos clásicos de búsqueda y optimización en grafos hacia **casos de uso reales y cotidianos**. El objetivo de este proyecto es demostrar cómo la Inteligencia Artificial y las estructuras de datos pueden resolver problemas logísticos, de infraestructura y de telecomunicaciones del mundo real.
