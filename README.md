@@ -7,7 +7,7 @@ Todos los algoritmos incluyen una interfaz interactiva en consola y una **simula
 
 ---
 
-## 🗺️ 1. Algoritmo de Dijkstra: Sistema de Navegación (GPS) Logístico
+## 1. Algoritmo de Dijkstra: Sistema de Navegación (GPS) Logístico
 El algoritmo de Dijkstra clásicamente encuentra el camino más corto entre dos nodos. 
 
 **Implementación Real:** Se adaptó para funcionar como el motor de enrutamiento de un sistema GPS para repartidores. 
@@ -17,7 +17,7 @@ El algoritmo de Dijkstra clásicamente encuentra el camino más corto entre dos 
 
 ---
 
-## 🌐 2. Algoritmo de Prim: Planificador de Red de Fibra Óptica (Árbol de Expansión Mínima)
+##  2. Algoritmo de Prim: Planificador de Red de Fibra Óptica (Árbol de Expansión Mínima)
 Prim es un algoritmo codicioso (greedy) que busca conectar todos los nodos de un grafo minimizando el costo total, partiendo desde un nodo inicial.
 
 **Implementación Real:**
@@ -28,7 +28,7 @@ Se diseñó un simulador para ingenieros de telecomunicaciones que necesitan ten
 
 ---
 
-## 🛣️ 3. Kruskal Mínimo: Constructor de Carreteras Estatales
+##  3. Kruskal Mínimo: Constructor de Carreteras Estatales
 Al igual que Prim, Kruskal Mínimo busca un Árbol Parcial Mínimo, pero lo hace ordenando globalmente todas las conexiones de menor a mayor y evitando formar ciclos (anillos cerrados).
 
 **Implementación Real:**
@@ -39,7 +39,7 @@ Un sistema para la Secretaría de Obras Públicas encargado de pavimentar rutas 
 
 ---
 
-## pout 4. Kruskal Máximo: Diseño de Acueducto de Alto Flujo
+## 4. Kruskal Máximo: Diseño de Acueducto de Alto Flujo
 El Kruskal Máximo invierte la lógica tradicional: busca conectar todos los elementos priorizando siempre los costos o pesos **más altos**.
 
 **Implementación Real:**
