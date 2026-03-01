@@ -27,6 +27,7 @@ Se diseñó un simulador para ingenieros de telecomunicaciones que necesitan ten
 * **Aristas (Pesos):** Representan los metros de cable de fibra óptica necesarios para unir dos edificios.
 * **Funcionamiento:** El usuario ingresa el plano (edificios y distancias) y elige dónde instalar el "Servidor Principal". La IA calcula paso a paso qué edificios conectar para garantizar que toda la red tenga internet utilizando la **menor cantidad de cable posible**, ahorrando presupuesto.
 
+![Algoritmo_prim](imagenes/arbol_prim.png)
 ---
 
 ##  3. Kruskal Mínimo: Constructor de Carreteras Estatales
@@ -38,6 +39,7 @@ Un sistema para la Secretaría de Obras Públicas encargado de pavimentar rutas 
 * **Aristas (Pesos):** Representan los kilómetros de distancia entre ellas.
 * **Funcionamiento:** Evalúa todos los proyectos de carreteras propuestos, empezando por los tramos más cortos. Utiliza una estructura `Union-Find` para aprobar la construcción de carreteras que conecten nuevas zonas y rechazar (en rojo) aquellas que formen rutas redundantes, logrando conectar todo el estado con el mínimo de kilómetros pavimentados.
 
+![Algoritmo_Minimo](imagenes/minimo_kruskal.png)
 ---
 
 ## 4. Kruskal Máximo: Diseño de Acueducto de Alto Flujo
@@ -49,6 +51,7 @@ Un optimizador para redes de distribución de agua potable (tuberías).
 * **Aristas (Pesos):** Representan la capacidad máxima de flujo de una tubería en **Litros por segundo (L/s)**.
 * **Funcionamiento:** Para asegurar que el agua llegue a toda la red con la mejor presión posible, la IA ordena las tuberías de mayor a menor capacidad. Prioriza instalar los tubos más gruesos y rechaza las conexiones redundantes que usarían tubos delgados, garantizando la red de distribución más robusta.
 
+![Algoritmo_Max](imagenes/max_kruskal.png)
 ---
 
 ## 🛠️ Requisitos para ejecutar
