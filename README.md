@@ -15,6 +15,7 @@ El algoritmo de Dijkstra clásicamente encuentra el camino más corto entre dos 
 * **Aristas (Pesos):** Representan el tiempo en minutos que toma viajar entre dos puntos, simulando el tráfico.
 * **Funcionamiento:** El usuario ingresa su punto de partida y su destino. La IA evalúa todas las rutas posibles, descarta los embotellamientos y devuelve el itinerario con el menor tiempo total estimado, graficando la ruta óptima en verde.
 
+![Algoritmo_Dijkstra](imagenes/dijkstra_.png)
 ---
 
 ##  2. Algoritmo de Prim: Planificador de Red de Fibra Óptica (Árbol de Expansión Mínima)
